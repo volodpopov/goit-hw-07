@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/normalized.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>goit-hw-07</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="visually-hidden">site without a name</h1>
+      <nav class="navigation container">
+        <a href="#" class="navigation__logo">Golden</a>
+        <ul class="navigation__list">
+          <li class="navigation__list-item">
+            <a href="#" class="navigation__list-item-link">home</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="#" class="navigation__list-item-link">services</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="#" class="navigation__list-item-link">portfolio</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="#" class="navigation__list-item-link">about</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="#" class="navigation__list-item-link">contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="container services">
+        <h2 class="section__header">services</h2>
+        <p class="section__header-descriptions">
+          Proin iaculis purus consequat sem cure.
+        </p>
+        <ul class="services__list">
+          <li class="services__list-item">
+            <h3
+              class="services__list-item-header services__list-item-header-commerce"
+            >
+              E-Commerce
+            </h3>
+            <p class="services__list-item-description">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+          <li class="services__list-item">
+            <h3
+              class="services__list-item-header services__list-item-header-responsive"
+            >
+              Responsive Web
+            </h3>
+            <p class="services__list-item-description">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+          <li class="services__list-item">
+            <h3
+              class="services__list-item-header services__list-item-header-security"
+            >
+              Web Security
+            </h3>
+            <p class="services__list-item-description">
+              Proin iaculis purus consequat sem cure digni ssim. Donec
+              porttitora entum suscipit aenean rhoncus posuere odio in
+              tincidunt.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <h2 class="section__header section__header-contact">contact us</h2>
+          <p class="section__header-descriptions">
+            Proin iaculis purus consequat sem cure.
+          </p>
+          <form action="#" method="GET" class="contact-form container">
+            <div class="contact-form-wrapper">
+              <div class="contact-form__data">
+                <input
+                  name="user_name"
+                  type="text"
+                  class="contact-form__input"
+                  placeholder="your name*"
+                  required
+                  minlength="2"
+                />
+                <input
+                  name="user_email"
+                  type="email"
+                  class="contact-form__input"
+                  placeholder="your e-mail*"
+                  required
+                />
+                <input
+                  name="user_subject"
+                  type="text"
+                  class="contact-form__input"
+                  placeholder="subject"
+                />
+              </div>
+              <div class="contact-form__message">
+                <textarea
+                  name="user_message"
+                  class="contact-form__textarea"
+                  placeholder="your message*"
+                  required
+                  minlength="10"
+                ></textarea>
+              </div>
+            </div>
+            <div class="contact-form__btn-wrapper">
+              <button type="submit" class="contact-form__btn">
+                send message
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
